@@ -1,0 +1,42 @@
+body{background-color: rgba(0, 0, 0, 1);
+	color: purple;
+	font-family: "Luminari", Luminari, fantasy;
+	font-style: italic;
+}
+h1{text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 1);
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  background-color: rgba(0, 0, 0, 1);
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 25px;
+}
+a:link {
+  color: purple;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: violet;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
